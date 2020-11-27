@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+# /dist/
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# /test/unit/coverage/
+# /test/e2e/reports/
+# /src/components/HelloWorld.vue
+# /src/components/Panel.vue
+# /src/components/Collapse.vue
+# /src/components/Tabs.vue
+# selenium-debug.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
