@@ -16,8 +16,8 @@ router.get('/', function (req, res, next) {
 	// 	msg: "请求成功"
   // }
   
-  // const file = path.join(__dirname, 'data/classRoomData.json'); //文件路径，__dirname为当前运行js文件的目录
-  const file = 'G:\\2020_StudyRecord\\ppsucTeam\\Express\\data\\classRoomData.json';
+  const file = path.join(__dirname, 'data/classRoomData.json'); //文件路径，__dirname为当前运行js文件的目录
+  // const file = 'G:\\2020_StudyRecord\\ppsucTeam\\Express\\data\\classRoomData.json';
   
   //var file = 'f:\\nodejs\\data\\test.json'; //也可以用这种方式指定路径
 

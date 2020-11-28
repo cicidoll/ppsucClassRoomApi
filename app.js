@@ -41,7 +41,7 @@ app.all('*',function (req, res, next) {
 
 
 const apiService = require('./routes/apiService');
-app.use('/v1/test', apiService);
+app.use('/v1/classRoomData', apiService);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
