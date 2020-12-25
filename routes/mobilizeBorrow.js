@@ -6,18 +6,9 @@ const fs = require('fs'); // 文件模块
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-	// const data = {
-	// 	code: 0,
-	// 	data: {
-	// 		name: 'aaa',
-	// 		pwd: '123'
-	// 	},
-	// 	isSuccess: true,
-	// 	msg: "请求成功"
-  // }
   
-  const file = path.join(__dirname, 'data/classRoomData.json'); //文件路径，__dirname为当前运行js文件的目录
-  // const file = 'G:\\2020_StudyRecord\\ppsucTeam\\Express\\data\\classRoomData.json';
+  const file = path.join(__dirname, '../data/mobilizeBorrow.json'); //文件路径，__dirname为当前运行js文件的目录
+  // const file = 'G:\\2020_StudyRecord\\ppsucTeam\\Express\\data\\mobilizeBorrow.json';
   
   //var file = 'f:\\nodejs\\data\\test.json'; //也可以用这种方式指定路径
 

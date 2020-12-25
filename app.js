@@ -40,8 +40,11 @@ app.all('*',function (req, res, next) {
 });
 
 
-const apiService = require('./routes/apiService');
-app.use('/v1/classRoomData', apiService);
+const classRoomData = require('./routes/classRoomData');
+app.use('/v1/classRoomData', classRoomData);
+
+const mobilizeBorrow = require('./routes/mobilizeBorrow');
+app.use('/v1/mobilizeBorrow', mobilizeBorrow);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
